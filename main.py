@@ -5,3 +5,4 @@ def split_integer(value: int, number_of_parts: int) -> list[int]:
     for i in range(remainder):
         parts[number_of_parts - 1 - i] += 1
     return sorted(parts)
+
