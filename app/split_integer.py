@@ -4,4 +4,4 @@ def split_integer(value: int, number_of_parts: int) -> list[int]:
     parts: list[int] = [base] * number_of_parts
     for i in range(remainder):
         parts[number_of_parts - 1 - i] += 1
-    return sorted(parts)
+    return parts
